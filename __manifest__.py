@@ -1,38 +1,45 @@
-# -*- coding: utf-8 -*-
 {
-    'name': "pos-oggy-screen",
+   
+    'name': "pos-oggy-screen-ahihi",
 
-    'summary': """Custom Oggy""",
+    'summary': """Custom Oggy Cute""",
+    'version': '1.0',
 
-    'description': "",
+    'description': """
+    """,
 
-    'author': "",
-    'website': "",
+    # 'author': '',
+    # 'maintainer': '',
+    # 'contributors': [''],
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Point Of Sale',
-    'version': '0.1',
+    # 'website': '',
 
-    # any module necessary for this one to work correctly
-     'depends': [
+    'license': 'AGPL-3',
+    'category': 'Uncategorized',
+
+    'depends': [
         'base', 'point_of_sale',
     ],
-
     'external_dependencies': {
         'python': [
         ],
     },
-    # always loaded
-   'data': [
+    'data': [
         'views/templates.xml',
 
     ],
-    # only loaded in demonstration mode
     'demo': [
+    ],
+    'js': [
+    ],
+    'css': [
+    ],
+    'qweb': [
+    ],
+    'images': [
+    ],
+    'test': [
     ],
 
     'installable': True
-    
 }
