@@ -20,6 +20,10 @@
         'base', 'point_of_sale',
     ],
 
+    'external_dependencies': {
+        'python': [
+        ],
+    },
     # always loaded
    'data': [
         'views/templates.xml',
@@ -29,5 +33,6 @@
     'demo': [
     ],
 
+    'installable': True
     
 }
